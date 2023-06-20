@@ -13,5 +13,5 @@ sSerezha = int(S/6)
 sKatya = int(2 * (sSerezha + sPetya))
 
 print(f'Петя сделал {sPetya} журавликов')
-print(f'Сережа сделал {sSerezha} журавликов')
 print(f'Катя сделал {sKatya} журавликов')
+print(f'Сережа сделал {sSerezha} журавликов')

@@ -9,14 +9,6 @@ ticketNumber = int(input('Введите номер билета: '))
 number = ticketNumber
 sum1 = 0
 sum2 = 0
-# digit6 = ticketNumber%10
-# digit5 = ticketNumber//10%10
-# digit4 = ticketNumber//100%10
-# sum1 = digit4 + digit5 + digit6
-# digit3 = ticketNumber//1000%10
-# digit2 = ticketNumber//10000%10
-# digit1 = ticketNumber//100000%10
-# sum2 = digit1 + digit2 + digit3
 
 while (ticketNumber>999):
    digit = ticketNumber%10
@@ -28,6 +20,5 @@ while (ticketNumber>0):
    ticketNumber = ticketNumber//10
    sum2 += digit
  
-print(sum1, sum2)
-
+print(sum2, sum1)
 print(f'{number} -> yes' if(sum1 == sum2) else f'{number} -> no') 
